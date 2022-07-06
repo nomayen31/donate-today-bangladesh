@@ -260,12 +260,15 @@ body{
 }
 
 .half-with p{
-    font-size: 20px 
+    font-size: 20px
 }
 
 .half-with img{
     width: 100%;
     padding-right: 30px;
+}
+#half-img{
+    padding-top: 30px;
 }
 
 .image-half{
@@ -339,14 +342,30 @@ form button {
     letter-spacing: 1px;
 }
 
-.footer{
-    margin-top: 60px;
+.column {
+    float: left;
+    width: 25%;
+    height: 30px;
+    padding: 10px;
+  }
+
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+.image-gallery h1{
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    font-size: 50px;
+}
+
+footer{
+    margin-top: 300px;
     background-color: rgb(22, 14, 44);
     height: 300px;
     width: 100%;
 }
-
-.footer h1{
+footer h1{
     padding-top: 60px;
     color: tomato;
     font-size: 50px;
@@ -354,8 +373,7 @@ form button {
     text-align:center;
     font-size: 50px;
 }
-
-.footer p{
+footer p{
     font-size: 20;
     padding-top: 30px;
     color: rgb(255, 254, 252);
